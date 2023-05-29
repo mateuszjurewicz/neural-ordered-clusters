@@ -12,8 +12,8 @@ The following section explains how to obtain the freely available datasets and p
 ### Data
 The datasets needed to be downloaded prior to running the experiments are available under the following links:
 
-- [Gauss2D Ordered By Distance from Origin](https://github.com/anonymous-paper-submissions/neural-ordered-clusters/blob/main/run_gauss2D.py) is generated based on the default configuration provided in the linked file's call to `main()`.
-- [Synthetic Catalogs](https://github.com/anonymous-paper-submissions/neural-ordered-clusters/blob/main/run_synthetic.py) are generated based on the default configuration file already provided within this repository [here](https://github.com/anonymous-paper-submissions/neural-ordered-clusters/blob/main/run_configs/synthetic_rulesets.json). 
+- [Gauss2D Ordered By Distance from Origin](https://github.com/mateuszjurewicz/neural-ordered-clusters/blob/main/run_gauss2D.py) is generated based on the default configuration provided in the linked file's call to `main()`.
+- [Synthetic Catalogs](https://github.com/mateuszjurewicz/neural-ordered-clusters/blob/main/run_synthetic.py) are generated based on the default configuration file already provided within this repository [here](https://github.com/mateuszjurewicz/neural-ordered-clusters/blob/main/run_configs/synthetic_rulesets.json). 
 - [PROCAT](https://doi.org/10.6084/m9.figshare.14709507) is also freely available and contains human-made product catalogs.
 
 The PROCAT dataset requires additional preprocessing as provided in the `procat_preprocess_for_bert.py` file, which produces 3 csv files. The final directory tree should look like this:
